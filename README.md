@@ -24,9 +24,9 @@ The rate of change of the room's temperature ($T_{room}$) is governed by the ene
 
 $$m_{air} c_p \frac{dT_{room}}{dt} = \dot{Q}_{gain} - \dot{Q}_{loss}$$
 
-Where:
-* **Heat Gain ($\dot{Q}_{gain}$):** The sum of controllable heater power ($\dot{Q}_{heater}$) and uncontrollable internal loads ($\dot{Q}_{internal}$, e.g., people, appliances).
-* **Heat Loss ($\dot{Q}_{loss}$):** Energy lost to the environment via the walls/windows, modeled by Newton's Law of Cooling: $\dot{Q}_{loss} = UA (T_{room} - T_{ambient})$.
+### Where:
+* **Heat Gain** (`Q_gain`): The sum of controllable heater power (`Q_heater`) and uncontrollable internal loads (`Q_internal`, e.g., people, appliances).
+* **Heat Loss** (`Q_loss`): Energy lost to the environment via the walls/windows, modeled by Newton's Law of Cooling: `Q_loss = UA * (T_room - T_ambient)`.
 
 ### System Dynamics
 Rearranging the equation for simulation allows us to calculate the temperature derivative at every time step:

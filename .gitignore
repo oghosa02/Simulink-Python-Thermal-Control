@@ -1,0 +1,10 @@
+# MATLAB
+*.autosave
+*.asv
+slprj/
+*.slxc
+
+# Python
+__pycache__/
+*.ipynb_checkpoints/
+.DS_Store

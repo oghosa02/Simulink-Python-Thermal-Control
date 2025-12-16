@@ -94,7 +94,7 @@ The ML controller utilizes a **Hybrid Strategy**:
 
 ### Step 1: Initialize Simulation
 1.  Open MATLAB.
-2.  Open `scrpit.m` and run **Section 0** and **Section 1**. This loads the physical parameters ($m_a, c_p, UA$) and generates the weather data.
+2.  Open `scrpit.m` and run **Section 1**. This generates the weather data.
 
 ### Step 2: Generate Training Data
 1.  Open `simulink/Room_Thermal_Baseline.slx` and click **Run**.

@@ -1,6 +1,3 @@
-# Simulink-Python-Thermal-Control
-Real-time integration of a Scikit-Learn Random Forest model into MATLAB/Simulink via ONNX. Demonstrates a complete Hardware-in-the-Loop (HIL) workflow for predictive thermal control.
-
 # Digital Twin & Machine Learning MPC for Thermal Energy Systems
 
 ![Project Status](https://img.shields.io/badge/Status-Complete-green) ![MATLAB](https://img.shields.io/badge/MATLAB-Simulink-blue) ![Python](https://img.shields.io/badge/Python-Scikit--Learn-yellow) ![ONNX](https://img.shields.io/badge/Deployment-ONNX-lightgrey)
